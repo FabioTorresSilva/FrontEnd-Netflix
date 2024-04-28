@@ -3,6 +3,7 @@
 Welcome to my Netflix clone project! This project is aimed at improving my front-end development skills by recreating the Netflix website. The goal is to make my code as clean as I can. This is something I will develop with time.
 
 Here is the Figma file I'm working with: [Netflix Design System 2024 Website](https://www.figma.com/community/file/1345502663442900887/netflix-design-system-2024-website-ver)
+
 You can see how it is going here :  [Live project](https://front-end-netflix-ochre.vercel.app/)
 
 ## Project Overview
