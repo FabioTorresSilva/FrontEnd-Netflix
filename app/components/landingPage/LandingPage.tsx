@@ -17,10 +17,10 @@ import rightArrow from "../../../public/assets/LandingPage/rightArrowLanding.png
 const LandingPage = () => {
   return (
     <>
-      <div className="bg-landingPage bg-no-repeat bg-cover bg-center bg-fixed h-[700px] ">
+      <div className="bg-landingPage bg-cover  bg-fixed h-[700px] ">
         <Navbar />
         <Midlanding />
-        <PopCorn />
+        <PopCorn/>
         <ImageRight
           text={
             "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more."
@@ -57,23 +57,23 @@ const LandingPage = () => {
             <Image src={plusQuestion} alt="plus" />
           </div>
           <div className="bg-[#2A2A2A] flex text-center items-center align-middle w-[1104px] justify-between p-5 px-5 mb-3">
-            <div className="text-white text-xl">What is Netflix?</div>
+            <div className="text-white text-xl">How much does netflix cost?</div>
             <Image src={plusQuestion} alt="plus" />
           </div>
           <div className="bg-[#2A2A2A] flex text-center items-center align-middle w-[1104px] justify-between p-5 px-5 mb-3">
-            <div className="text-white text-xl">What is Netflix?</div>
+            <div className="text-white text-xl">Where can I watch?</div>
             <Image src={plusQuestion} alt="plus" />
           </div>
           <div className="bg-[#2A2A2A] flex text-center items-center align-middle w-[1104px] justify-between p-5 px-5 mb-3">
-            <div className="text-white text-xl">What is Netflix?</div>
+            <div className="text-white text-xl">How do I cancel?</div>
             <Image src={plusQuestion} alt="plus" />
           </div>
           <div className="bg-[#2A2A2A] flex text-center items-center align-middle w-[1104px] justify-between p-5 px-5 mb-3">
-            <div className="text-white text-xl">What is Netflix?</div>
+            <div className="text-white text-xl">What can I watch on Netflix?</div>
             <Image src={plusQuestion} alt="plus" />
           </div>
           <div className="bg-[#2A2A2A] flex text-center items-center align-middle w-[1104px] justify-between p-5 px-5 mb-3">
-            <div className="text-white text-xl">What is Netflix?</div>
+            <div className="text-white text-xl">Is Netflix good for kids?</div>
             <Image src={plusQuestion} alt="plus" />
           </div>
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Midlanding = () => {
   return (
-    <div className="items-center align-middle justify-center flex-col flex text-white gap-[22px] pt-[240px]">
+    <div className="items-center align-middle justify-center flex-col flex pb-3 text-white gap-[22px] pt-[240px]">
         <div className="text-5xl text-white font-extrabold ">
           Unlimited movies, TV shows, and more
         </div>
