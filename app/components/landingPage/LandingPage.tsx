@@ -17,7 +17,7 @@ import rightArrow from "../../../public/assets/LandingPage/rightArrowLanding.png
 const LandingPage = () => {
   return (
     <>
-      <div className="bg-landingPage bg-no-repeat bg-cover bg-center bg-fixed h-[800px] ">
+      <div className="bg-landingPage bg-no-repeat bg-cover bg-center bg-fixed h-[700px] ">
         <Navbar />
         <Midlanding />
         <PopCorn />

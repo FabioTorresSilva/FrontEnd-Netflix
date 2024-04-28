@@ -8,7 +8,7 @@ import popCorn from "../../../public/assets/LandingPage/PopCorn.png";
 
 const PopCorn = () => {
   return (
-    <div className=" items-center  flex justify-center   pt-[200px] ">
+    <div className=" items-center  flex justify-center   pt-[120px] ">
       <div className="bg-radial-gradient  w-[1292px] h-[144px] ">
         <div className="flex py-5 items-center  justify-center gap-8">
           <div className="">
