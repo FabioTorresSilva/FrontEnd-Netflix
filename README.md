@@ -1,4 +1,4 @@
-# Netflix Clone Project
+# Netflix Clone Project - Desktop
 
 Welcome to my Netflix clone project! This project is aimed at improving my front-end development skills by recreating the Netflix website. The goal is to make my code as clean as I can. This is something I will develop with time.
 
