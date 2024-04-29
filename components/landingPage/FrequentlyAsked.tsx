@@ -1,6 +1,6 @@
 import React from "react";
-import rightArrow from "../../../public/assets/LandingPage/rightArrowLanding.png";
-import plusQuestion from "../../../public/assets/plusQuestion.png";
+import rightArrow from "../../public/assets/LandingPage/rightArrowLanding.png";
+import plusQuestion from "../../public/assets/plusQuestion.png";
 import Image from "next/image";
 
 const FrequentlyAsked = () => {

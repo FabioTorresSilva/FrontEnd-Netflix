@@ -1,7 +1,7 @@
 import React from "react";
-import Netflix from "../../../public/assets/LandingPage/netflixlanding.png";
-import Language from "../../../public/assets/LandingPage/Language-LandingPage.png";
-import DownLanguage from "../../../public/assets/LandingPage/LanguageDownButton-LandingPage.png";
+import Netflix from "../../public/assets/LandingPage/netflixlanding.png";
+import Language from "../../public/assets/LandingPage/Language-LandingPage.png";
+import DownLanguage from "../../public/assets/LandingPage/LanguageDownButton-LandingPage.png";
 import Image from "next/image";
 
 const Navbar = () => {

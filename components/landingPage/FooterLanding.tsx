@@ -1,6 +1,6 @@
 import React from "react";
-import Language from "../../../public/assets/LandingPage/Language-LandingPage.png";
-import DownLanguage from "../../../public/assets/LandingPage/LanguageDownButton-LandingPage.png";
+import Language from "../../public/assets/LandingPage/Language-LandingPage.png";
+import DownLanguage from "../../public/assets/LandingPage/LanguageDownButton-LandingPage.png";
 import Image from "next/image";
 
 const FooterLanding = () => {

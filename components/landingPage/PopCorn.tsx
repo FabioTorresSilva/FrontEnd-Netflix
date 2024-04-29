@@ -1,10 +1,6 @@
 import Image from "next/image";
-import Netflix from "../../../public/assets/LandingPage/netflixlanding.png";
-import Language from "../../../public/assets/LandingPage/Language-LandingPage.png";
-import DownLanguage from "../../../public/assets/LandingPage/LanguageDownButton-LandingPage.png";
-import rightArrow from "../../../public/assets/LandingPage/rightArrowLanding.png";
-import blueRight from "../../../public/assets/LandingPage/blueRight.png";
-import popCorn from "../../../public/assets/LandingPage/PopCorn.png";
+import blueRight from "../../public/assets/LandingPage/blueRight.png";
+import popCorn from "../../public/assets/LandingPage/PopCorn.png";
 
 const PopCorn = () => {
   return (

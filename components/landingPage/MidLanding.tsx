@@ -1,5 +1,5 @@
 import React from "react";
-import rightArrow from "../../../public/assets/LandingPage/rightArrowLanding.png";
+import rightArrow from "../../public/assets/LandingPage/rightArrowLanding.png";
 import Image from "next/image";
 
 const Midlanding = () => {
