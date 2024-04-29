@@ -3,10 +3,18 @@ import Netflix from "../../public/assets/LandingPage/netflixlanding.png";
 import Language from "../../public/assets/LandingPage/Language-LandingPage.png";
 import DownLanguage from "../../public/assets/LandingPage/LanguageDownButton-LandingPage.png";
 import Image from "next/image";
+import { useRouter } from 'next/router';
+
 
 const Navbar = () => {
+  const router = useRouter();
+
+const handleSignInClick = ()=>{
+  router.push("/SignIn")
+}
+
   return (
-    <div className="flex justify-between px-40 pt-[24px]">
+    <div className="flex justify-between px-44 pt-[24px]">
       <div>
         <Image src={Netflix} alt="Netflix" />
       </div>
@@ -23,7 +31,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="bg-red h-[32px] rounded font-medium text-white p-1 px-4">
-          <button>Sign In</button>
+          <button onClick={handleSignInClick}>Sign In</button>
         </div>
       </div>
     </div>

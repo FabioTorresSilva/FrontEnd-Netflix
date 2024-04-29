@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'radial-gradient':'radial-gradient(circle, rgba(165,29,29,1) 10%, rgba(5,0,58,0.6038748262977065) 100%)',
-        'landingPage': "url('../public/assets/LandingPage/bglanding.png')"
+        'landingPage': "url('../public/assets/LandingPage/bglanding.png')",
+        'signIn':"url('../public/assets/SignInbg.png')"
       },
       dropShadow: {
 
