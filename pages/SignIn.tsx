@@ -8,7 +8,7 @@ import SignInFooter from "@/components/signIn/SignInFooter";
 export default function Home() {
   return (
     <>
-      <div className="bg-signIn  bg-cover  ">
+      <div className="bg-signIn  bg-cover ">
         <NavbarSignIn />
         <SignInCard/>
         <SignInFooter/>

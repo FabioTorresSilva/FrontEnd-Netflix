@@ -1,5 +1,12 @@
+import { useRouter } from "next/router";
+
 const SignInCard = () => {
- 
+  const router = useRouter();
+
+  const handleSignIn = ()=>{
+    router.push("/Utilizador")
+  }
+  
   return (
     <div className=" flex justify-center">
           <div className="p-[60px] bg-black bg-opacity-60 w-[450px] rounded">
@@ -16,7 +23,7 @@ const SignInCard = () => {
               />
             </div>
             <div className="pb-28">
-              <button className="text-white mt-5 bg-red text-md font-bold text-center w-full py-2 rounded">
+              <button onClick={handleSignIn} className="text-white mt-5 bg-red text-md font-bold text-center w-full py-2 rounded">
                 Sign In
               </button>
               <div className="mt-5 text-center w-full text-gray-300">OR</div>
